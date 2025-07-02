@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="website icon" href="imgs/icon.jpeg">
+    <link rel="stylesheet" href="form.css">
+    <title>Nous Contacter - AMTI</title>
+</head>
+<body>
+    <header>
+        <div id="logo"> 
+            <img src="imgs/logo.jpeg" width="90px" height="70px">
+        </div> 
+        <nav>
+            <ul>
+                <li><a href="/Projet-Stage.html">Accueil</a></li>
+                <li><a href="/About.html" target="_blank">À propos</a></li>
+                <li><a href="">Nos produits</a></li>
+                <li><a href="">Contacts</a></li>
+            </ul>
+        </nav>
+        <button id="h-d">Catalogue</button>
+    </header>
+     <main>
+        <video src="/imgs/bg.mp4" loop autoplay muted></video>
+  </main>
+  <h1 id="title">NOUS CONTACTER</h1>
+  <div class="Contact">
+    <p id="C-p">Nous sommes disponibles pour répondre à toutes vos questions et vous accompagner dans vos projets.</p>
+    <div class="C-form">
+        <h2 id="C-h2">Envoyer-nous un message</h2>
+        <form action="">
+            <input type="text" placeholder="Nom & Prénom*" required>
+            <input type="email" placeholder="E-mail*" required><br>
+            <input type="tel" placeholder="Téléphone*" required aria-label="Objet de votre demande"><br>
+            <select name="subject" id=""required>
+                <option disabled selected>Objet de votre demande*</option>
+                <option value="Info">Demande d'infromations</option>
+                <option value="Reclamation">Réclmation</option>
+                <option value="recruitment">Recrutment/Stage</option>
+                <option value="other">Autres</option>
+            </select><br>
+            <textarea name="message" rows="6" placeholder="Votre message*"></textarea><br>
+            <button id="C-b" type="submit">Envoyer</button>
+        </form>
+    </div>
+    <div class="info">
+        <h2 id="I-h2">Infromations de Contact</h2>
+        <p class="I-p">Address :<a href="CF68+RJ7, N9, Deroua">Z.I. Bouzanine, R.N. 9 km 21 NOUASSEUR</a></p>
+        <p class="I-p">Téléphone : <a href="tel:+212 5 20 99 87 16">+212 5 20 99 87 16</a> / <a href="tel:+212 6 61 31 12 29">+212 6 61 31 12 29</a></p>
+        <p class="I-p">Email : <a href="mailto:contact@amti.ma">contact@amti.ma</a></p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d541.660143117096!2d-7.533354094200967!3d33.41203607536357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda630c
+        82e0c1e2d%3A0x29872512623e0e4b!2sCF68%2BRJ7%2C%20N9%2C%20Deroua!5e1!3m2!1sfr!2sma!4v1744367353864!5m2!1sfr!2sma" loading="lazy" frameborder="0" width="500px" height="300px"></iframe>
+    </div>
+  </div>
+    <footer class="footer">
+    <div class="Fcontainer">
+      <div class="First-div">
+        <img src="/imgs/logo.jpeg" width="200px">
+        <p>Tel: <a href="tel:+212 5 20 99 87 16">+212 5 20 99 87 16</a> / <a href="tel:+212 6 61 31 12 29">+212 6 61 31 12 29</a></p>
+        <p>Email: <a href="mailto:i.zouhir@alfa-mti.ma">i.zouhir@alfa-mti.ma</a></p>
+        <p>Adresse : <a href="https://maps.app.goo.gl/eeHWMSjR4uemJUFu8" target="_blank">Z.I. Bouzanine, R.N. 9 km 21 NOUASSEUR</a></p>
+      </div>
+      <div class="Second-div">
+        <h3>
+          NOUS REJOINDRE  
+        </h3>
+        <P><a href="">Formulaire de Contact</a></P>
+      </div>
+      <div class="Third-div">
+        <h3>
+          INFORMATIONS LÉGALES
+        </h3>
+        <p><a href="">Conditions générales</a></p>
+      </div>
+      <div class="Fourth-div">
+        <h4>© 2025 <span style="color: rgb(118, 200, 239);"> AMTI</span>. Tous droits réservés.</h4>
+      </div>
+    </div>
+  </footer>
+      <script>
+        window.addEventListener("scroll", function(){
+            let header = document.querySelector("header")
+            if(window.scrollY<450){
+            header.classList.add("scroll-active")}
+            else{
+                header.classList.remove("scroll-active");
+            }
+        })
+    </script>
+</body>
+</html>
